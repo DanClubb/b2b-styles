@@ -16,6 +16,7 @@
 body {
   font-family: Inter;
   font-size: var(--font-size);
+  line-height: 1.5;
 }
 
 h1 {
@@ -48,8 +49,6 @@ h4 {
 
 section {
   margin: 8.5rem calc((100vw - 1440px) / 2);
-  margin: 8.5rem 2rem;
-  /* padding: 0 calc((100vw - 1440px) / 2) */
 }
 
 a {
@@ -91,6 +90,11 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 1440px) {
+  section {
+    margin: 8.5rem 2rem;
+  }
+}
 /* //////////////////// PAGES //////////////////// */
 /* ////////// HOMEPAGE ////////// */
 .hero {
@@ -306,8 +310,8 @@ nav a {
   gap: 2rem;
 }
 .txtimg__txt {
-  max-width: 35ch;
-  font-size: 28px;
+  max-width: 45ch;
+  font-size: 20px;
 }
 .txtimg__img {
   width: 525px;

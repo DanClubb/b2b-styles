@@ -363,6 +363,9 @@ a .feature-card {
 .feature-card--hover:hover {
   box-shadow: 0 0 0 3px #832885;
 }
+.feature-card img {
+  margin: 0 auto;
+}
 .feature-card .grey-div {
   margin: 0 auto;
   width: 100px;

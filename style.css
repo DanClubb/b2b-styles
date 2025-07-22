@@ -37,12 +37,6 @@ h4 {
   font-size: 20px;
 }
 
-h1,
-h2,
-h4 {
-  font-weight: 700;
-}
-
 section {
   margin: 8.5rem calc((100vw - 1440px) / 2);
 }

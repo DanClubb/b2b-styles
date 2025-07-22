@@ -190,6 +190,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   counter-reset: steps-counter;
+  list-style: none;
 }
 
 .company-logos {
@@ -381,11 +382,6 @@ a .feature-card {
 
 /* ////////// GET STARTED STEP ////////// */
 .step {
-  display: grid;
-  justify-items: center;
-  gap: 1rem;
-  padding: 4rem 1rem;
-  text-align: center;
   counter-increment: steps-counter;
   position: relative;
 }
@@ -394,6 +390,15 @@ a .feature-card {
   font-size: 32px;
   font-family: Taviraj;
   font-weight: 700;
+}
+
+/* ////////// TXT OVER IMG ////////// */
+.txt-over-img {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  padding: 4rem 1rem;
+  text-align: center;
 }
 
 /* ////////// TXT & CTA ////////// */

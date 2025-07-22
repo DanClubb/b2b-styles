@@ -21,6 +21,7 @@ body {
 
 h1 {
   font-size: 38px;
+  font-family: Taviraj;
 }
 
 h2 {
@@ -33,12 +34,6 @@ h3 {
 
 h4 {
   font-size: 20px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: Taviraj;
 }
 
 h1,

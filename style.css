@@ -216,6 +216,11 @@ a {
   bottom: 11.5rem;
   left: 0;
 }
+.feature-page__bordered-txt {
+  margin: 0 auto;
+  padding: 4.25rem 5.5rem;
+  max-width: 890px;
+}
 .feature-page-cards__container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

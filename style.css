@@ -217,8 +217,8 @@ a {
 }
 
 .feature-page-txtimg__img {
-  width: 475px;
-  height: 475px;
+  width: 475px !important;
+  height: 475px !important;
 }
 
 .feature-page__txt-img-section .cta {

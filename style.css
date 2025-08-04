@@ -211,6 +211,11 @@ a {
   width: fit-content;
   position: relative;
 }
+
+.feature-page__txt-img-section .txtimg__txt {
+  line-height: 1.5;
+}
+
 .feature-page__txt-img-section .cta {
   position: absolute;
   bottom: 11.5rem;

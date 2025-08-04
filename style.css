@@ -212,13 +212,18 @@ a {
   position: relative;
 }
 
-.feature-page__txt-img-section .txtimg__txt {
+.feature-page-txtimg__txt {
   line-height: 1.5;
+}
+
+.feature-page-txtimg__img {
+  width: 475px;
+  height: 475px;
 }
 
 .feature-page__txt-img-section .cta {
   position: absolute;
-  bottom: 11.5rem;
+  bottom: 8.5rem;
   left: 0;
 }
 .feature-page__bordered-txt {
